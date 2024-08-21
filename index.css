@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  @apply text-neutral-700;
+}
+
+.btn {
+  @apply text-xl font-bold px-5 py-2.5 rounded-xl cursor-pointer lg:px-6 lg:py-3;
+}
+
+.btn-primary {
+  @apply text-white bg-gradient-to-r from-red-500 to-[#FF8938];
+}
+
+.btn-secondary {
+}
