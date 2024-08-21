@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+section {
+  @apply my-8 lg:my-16;
+}
+
 p {
-  @apply text-neutral-700;
+  @apply text-neutral-500;
 }
 
 .btn {
@@ -15,4 +19,16 @@ p {
 }
 
 .btn-secondary {
+}
+
+.section-heading {
+  @apply max-w-[900px];
+}
+
+.section-heading h2 {
+  @apply text-5xl font-extrabold;
+}
+
+.section-heading p {
+  @apply font-medium leading-7 mt-5;
 }
