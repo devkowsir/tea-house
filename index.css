@@ -11,7 +11,7 @@ p {
 }
 
 .btn {
-  @apply text-xl font-bold px-5 py-2.5 rounded-xl cursor-pointer lg:px-6 lg:py-3 bg-gradient-to-r from-orange-500 to-red-500;
+  @apply text-xl font-bold px-5 py-2.5 rounded-xl lg:px-6 lg:py-3 bg-gradient-to-r from-orange-500 to-red-500;
 }
 
 .btn-primary {
@@ -60,4 +60,28 @@ p {
 
 #clients li p:last-child {
   @apply text-neutral-700;
+}
+
+#news li {
+  @apply p-4 border rounded-xl;
+}
+
+#news li img {
+  @apply w-full;
+}
+
+#news li span {
+  @apply block mt-4 mb-3 text-neutral-500;
+}
+
+#news li h3 {
+  @apply font-bold text-lg;
+}
+
+#news li p {
+  @apply my-2;
+}
+
+#news li button {
+  @apply font-bold;
 }
