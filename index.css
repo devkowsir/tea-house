@@ -11,14 +11,11 @@ p {
 }
 
 .btn {
-  @apply text-xl font-bold px-5 py-2.5 rounded-xl cursor-pointer lg:px-6 lg:py-3;
+  @apply text-xl font-bold px-5 py-2.5 rounded-xl cursor-pointer lg:px-6 lg:py-3 bg-gradient-to-r from-orange-500 to-red-500;
 }
 
 .btn-primary {
-  @apply text-white bg-gradient-to-r from-red-500 to-[#FF8938];
-}
-
-.btn-secondary {
+  @apply text-white;
 }
 
 .section-heading {
@@ -47,4 +44,20 @@ p {
 
 #featured li p {
   @apply max-w-52 font-semibold;
+}
+
+#clients li {
+  @apply px-4 pt-8 pb-4 rounded-md bg-white w-11/12;
+}
+
+#clients li div {
+  @apply absolute p-1 top-0 left-1/2  -translate-x-1/2 -translate-y-1/2 bg-white rounded-full;
+}
+
+#clients li h3 {
+  @apply font-semibold mt-4;
+}
+
+#clients li p:last-child {
+  @apply text-neutral-700;
 }
