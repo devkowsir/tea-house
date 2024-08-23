@@ -26,9 +26,25 @@ p {
 }
 
 .section-heading h2 {
-  @apply text-5xl font-extrabold;
+  @apply text-4xl font-extrabold;
 }
 
 .section-heading p {
-  @apply font-medium leading-7 mt-5;
+  @apply font-medium leading-7 mt-3;
+}
+
+#featured li {
+  @apply flex flex-col items-center text-center p-5 rounded-xl bg-gradient-to-b from-neutral-100 to-neutral-100/0 shadow-md;
+}
+
+#featured li img {
+  @apply max-w-full aspect-[16/25] object-cover;
+}
+
+#featured li h3 {
+  @apply mt-7 mb-2 text-2xl font-extrabold;
+}
+
+#featured li p {
+  @apply max-w-52 font-semibold;
 }

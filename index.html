@@ -5,69 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
   </head>
-  <body class="text-neutral-800">
+  <body class="w-11/12 max-w-screen-xl mx-auto space-y-16 text-neutral-800">
     <!-- Header section -->
     <header>
-      <div
-        class="container py-8 flex gap-8 flex-col-reverse items-center mx-auto lg:py-12 lg:justify-between lg:flex-row"
-      >
-        <div class="text-center lg:text-left">
-          <h1 class="text-5xl font-extrabold md:text-6xl lg:text-7xl">It's good tea time at The Tea House</h1>
-          <p class="py-8 text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+      <div class="flex gap-4 flex-col-reverse items-center">
+        <div class="text-center">
+          <h1 class="text-5xl font-extrabold">It's good tea time at The Tea House</h1>
+          <p class="my-4 text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
           <button class="btn btn-primary">Explore More</button>
         </div>
-        <div class="relative flex-shrink-0 lg:w-1/2">
+        <div class="relative flex-shrink-0">
           <div
-            class="absolute bottom-4 left-4 bg-white px-5 py-3 flex gap-2 items-center rounded-xl shadow-[0_7px_50px_#0001] lg:gap-4"
+            class="absolute bottom-4 left-4 bg-white px-5 py-3 flex gap-2 items-center rounded-xl shadow-[0_7px_50px_#0001]"
           >
             <img src="./images/Star.png" alt="" />
-            <p><span class="text-2xl font-bold lg:text-3xl">5.00</span><br />Trust Pilot Ratings</p>
+            <p><span class="text-2xl font-bold">5.00</span><br />Trust Pilot Ratings</p>
           </div>
-          <img class="w-full" src="./images/banner.png" alt="" />
+          <img class="w-full pl-[4%]" src="./images/banner.png" alt="" />
         </div>
       </div>
     </header>
-    <main>
-      <section class="container w-11/12 mx-auto md:w-full">
-        <div class="section-heading mx-auto text-center">
-          <h2>Our Featured Products</h2>
+
+    <!-- Featured Products -->
+    <section id="featured">
+      <div class="section-heading text-center">
+        <h2>Our Featured Products</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomised words which don't look even slightly believable.
+        </p>
+      </div>
+      <ul class="mt-6 grid grid-cols-1 gap-4">
+        <li>
+          <img src="./images/tea-1.png" alt="" />
+          <h3>Milk Tea</h3>
+          <p>Creamer could be replaced by fresh milk</p>
+        </li>
+        <li>
+          <img src="./images/tea-2.png" alt="" />
+          <h3>Black Tea</h3>
+          <p>Creamer could be replaced by fresh milk</p>
+        </li>
+        <li>
+          <img src="./images/tea-3.png" alt="" />
+          <h3>Lemon Tea</h3>
+          <p>Creamer could be replaced by fresh milk</p>
+        </li>
+        <li>
+          <img src="./images/tea-4.png" alt="" />
+          <h3>Green Tea</h3>
+          <p>Creamer could be replaced by fresh milk</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- USP section -->
+    <section class="flex flex-col gap-8">
+      <div class="grid grid-cols-2 grid-rows-3 gap-4">
+        <div class="row-span-1 bg-gradient-to-r from-red-100 to-red-50 rounded-lg"></div>
+        <div class="row-span-2 py-4 bg-stone-100 rounded-lg">
+          <img class="mx-auto" src="./images/fresh-1.png" alt="" />
+        </div>
+        <div class="row-span-2 py-4 bg-stone-100 rounded-lg">
+          <img class="mx-auto" src="./images/fresh-2.png" alt="" />
+        </div>
+        <div class="row-span-1 bg-gradient-to-r from-stone-200 to-stone-100 rounded-lg"></div>
+      </div>
+      <div>
+        <div class="section-heading">
+          <h2>Great Tea, Freshly Presented</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-            some form, by injected humour, or randomised words which don't look even slightly believable.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nostrum itaque doloremque corporis fugiat
+            quidem sapiente veritatis impedit aspernatur odio. Soluta, in. At totam excepturi nam autem quos hic
+            adipisci.
           </p>
         </div>
-        <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:mt-12">
-          <li
-            class="flex flex-col items-center text-center p-5 rounded-xl bg-gradient-to-b from-neutral-100 to-neutral-100/0 lg:p-7"
-          >
-            <img class="max-w-full aspect-[16/25] object-cover" src="./images/tea-1.png" alt="" />
-            <h3 class="mt-7 mb-2 text-2xl font-extrabold">Milk Tea</h3>
-            <p class="max-w-52 font-semibold">Creamer could be replaced by fresh milk</p>
+        <ul class="mt-6 space-y-4">
+          <li>
+            <h3 class="mb-2 text-2xl font-extrabold">Unique Taste</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, error consequatur! Repellat laborum ratione
+              quo.
+            </p>
           </li>
-          <li
-            class="flex flex-col items-center text-center p-5 rounded-xl bg-gradient-to-b from-neutral-100 to-neutral-100/0 lg:p-7"
-          >
-            <img class="max-w-full aspect-[16/25] object-cover" src="./images/tea-2.png" alt="" />
-            <h3 class="mt-7 mb-2 text-2xl font-extrabold">Black Tea</h3>
-            <p class="max-w-52 font-semibold">Creamer could be replaced by fresh milk</p>
-          </li>
-          <li
-            class="flex flex-col items-center text-center p-5 rounded-xl bg-gradient-to-b from-neutral-100 to-neutral-100/0 lg:p-7"
-          >
-            <img class="max-w-full aspect-[16/25] object-cover" src="./images/tea-3.png" alt="" />
-            <h3 class="mt-7 mb-2 text-2xl font-extrabold">Lemon Tea</h3>
-            <p class="max-w-52 font-semibold">Creamer could be replaced by fresh milk</p>
-          </li>
-          <li
-            class="flex flex-col items-center text-center p-5 rounded-xl bg-gradient-to-b from-neutral-100 to-neutral-100/0 lg:p-7"
-          >
-            <img class="max-w-full aspect-[16/25] object-cover" src="./images/tea-4.png" alt="" />
-            <h3 class="mt-7 mb-2 text-2xl font-extrabold">Green Tea</h3>
-            <p class="max-w-52 font-semibold">Creamer could be replaced by fresh milk</p>
+          <li>
+            <h3 class="mb-2 text-2xl font-extrabold">Premium Quality</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, error consequatur! Repellat laborum ratione
+              quo.
+            </p>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
