@@ -47,11 +47,11 @@ p {
 }
 
 #clients li {
-  @apply px-4 pt-8 pb-4 rounded-md bg-white w-11/12;
+  @apply px-4 pt-8 pb-4 sm:p-8 rounded-md bg-white w-11/12 sm:w-10/12;
 }
 
 #clients li div {
-  @apply absolute p-1 top-0 left-1/2  -translate-x-1/2 -translate-y-1/2 bg-white rounded-full;
+  @apply absolute p-1 top-0 left-1/2 sm:left-0 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full;
 }
 
 #clients li h3 {
