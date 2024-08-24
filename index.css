@@ -23,7 +23,7 @@ p {
 }
 
 .section-heading h2 {
-  @apply text-4xl font-extrabold;
+  @apply text-4xl font-extrabold md:text-5xl;
 }
 
 .section-heading p {
